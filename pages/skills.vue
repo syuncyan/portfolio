@@ -100,7 +100,7 @@ export default {
         position: relative;
         top: 100px;
     }
-
+  }
     .background {
   width: 100%;
 }
@@ -118,6 +118,5 @@ export default {
     opacity: 1;
     transform: scale(1);
   }
-}
 }
   </style>
