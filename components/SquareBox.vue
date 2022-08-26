@@ -52,7 +52,7 @@
               border-radius: 50%;
               background-image: url(soccer_ball.jpg);
               background-position: center;
-              background-size: cover;
+              background-size: 160%;
             }              
             .not{
                  position: relative;
