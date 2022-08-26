@@ -58,11 +58,11 @@
           ></svg>
       </div>
       <a href="/about" class="box">
-    <img  src="soccer_ball.jpg" class="square" alt="About">
+    <img  src="soccer_ball.jpg" class="square">
     <p>About</p>
   </a>
   <a href="/Skills" class="box">
-    <img  src="soccer_ball.jpg" class="square" alt="Skills">
+    <img  src="soccer_ball.jpg" class="square">
     <p>Skills</p>
   </a>
   <a href="/Hobby" class="box">
