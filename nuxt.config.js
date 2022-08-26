@@ -1,14 +1,18 @@
-const title_name = "ポートフォリオサイト"
-const desc_name = "自己紹介などいろいろ書いてますぜひ見てね"
-const img_url = "assets/portfolio_picture.jpg"
 export default {
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    htmlAttrs: {
+      lang: 'ja',
+    },
     title: process.env.npm_package_name || "",
     meta: [
-      { hid: 'description', name: 'description', content: desc_name },
-      { hid: 'og:title', property: 'og:title', content: title_name },
-      { hid: 'og:image', property: 'og:image', content: img_url },
-      { hid: 'og:description', property: 'og:description', content: desc_name },
+      { hid: 'og:title', property: 'og:title', content: ("Syuncyan Portfolio Site") },
+      { hid: 'og:image', property: 'og:image', content: ('assets/portfolio_picture.jpg') },
+      { hid: 'og:description', property: 'og:description', content: ("ポートフォリオサイトです。ぜひ見に来てください。") },
+
 
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
