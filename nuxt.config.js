@@ -16,22 +16,6 @@ export default {
     ],
     link:[{ rel: "icon", type: "image/x-icon", href: "/boy_soccer.ico" }]
   },
-  head: {
-    meta: [
-      { hid: 'og:type', property: 'og:type', content: 'article' },
-      { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' },
-      { hid: 'og:site_name', property: 'og:site_name', content: '(サイト名)' },
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-    ],
-  },
-  head: {
-    meta: [
-      { hid: 'og:type', property: 'og:type', content: 'article' },
-      { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' },
-      { hid: 'og:site_name', property: 'og:site_name', content: '(サイト名)' },
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-    ],
-  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
