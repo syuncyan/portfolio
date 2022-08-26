@@ -124,7 +124,7 @@
 @media screen and (min-width: 768px) {
   .text-2xl{
     text-align: center;
-  font-size: 100px;
+  font-size: 80px;
   position: relative;
   top: 100px;
   }

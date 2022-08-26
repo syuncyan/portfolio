@@ -88,7 +88,7 @@ div .about-container{
             }
             h4 {
                 text-align: center;
-                font-size: 600%;
+                font-size: 700%;
                 color: red;
             }
   
