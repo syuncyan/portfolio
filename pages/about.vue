@@ -1,7 +1,9 @@
 <template>
     <div class="about-container">
         <a href="/" class="top" style="color: blue;">Top</a>
-        <h4>About Page</h4>
+        <div class="container">
+    <div class="background"><h4>About Page</h4></div>
+
         <h1>Name</h1>
         <p>Syunsuke.Fujino</p>
         <h2>From</h2>
@@ -12,6 +14,9 @@
         <p>soccer</p>
         <h6>Birth Day</h6>
         <p>December 23</p>
+
+</div>
+
     </div>
 </template>
 
@@ -97,5 +102,23 @@ div .about-container{
         position: relative;
         top: 100px;
     }
+}
+.background {
+  width: 100%;
+}
+
+.container {
+  animation: zoomin 1s ease-out forwards;
+}
+
+@keyframes zoomin {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
       <div class="hobby-container">
         <a href="/" class="top" style="color: blue;">Top</a>
-        <h6>Hobby Page</h6>
-        
+        <div class="container">
+    <div class="background"><h6>Hobby Page</h6></div>
         <h1>SOCCER</h1><br>
         <p>サッカーを14年目やってます。<br>今も社会人でやってます。</p>
         <h2>Sports</h2>
@@ -13,7 +13,9 @@
         <p>暇な時でYoutubeを見ていないとき<br>Tik Tokを見ています。</p>
         <h5>Sleeping</h5>
         <p>とてもとても暇なときはだいたい寝ています。</p>
-    </div>
+    </div>  
+        </div>
+      
 </template>
 
 <script>
@@ -108,6 +110,25 @@ export default {
       font-size: 80px;
       position: relative;
       top: 100px;
+  }
+}
+  .background {
+  width: 100%;
+  height:40%;
+}
+
+.container {
+  animation: zoomin 1s ease-out forwards;
+}
+
+@keyframes zoomin {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
         <div class="skills-container">
         <a href="/" class="top" style="color: blue;">Top</a>
-        <h6>Skills Page</h6>
+        <div class="container">
+    <div class="background"><h6>Skills Page</h6></div>
+        
     <h1>C言語</h1>
     <p>高校の時に3年間授業があった<br>専門学校でも1年間授業があった。</p>
     <h2>Python</h2>
@@ -12,6 +14,7 @@
     <p>専門学校の授業でたぶん1年くらい授業があった。</p>
     <h5>MySql</h5>
     <p>高校の時に1年くらい<br>専門学校ではそこそこ授業があったきがする。</p>
+    </div>
     </div>
 </template>
 
@@ -97,5 +100,24 @@ export default {
         position: relative;
         top: 100px;
     }
+
+    .background {
+  width: 100%;
+}
+
+.container {
+  animation: zoomin 1s ease-out forwards;
+}
+
+@keyframes zoomin {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 }
   </style>
