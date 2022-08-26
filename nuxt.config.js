@@ -1,6 +1,6 @@
-const title_name = ('Syuncyan portfolio site')
+const title_name = ("Syuncyan Portfolio Site")
 const desc_name = (自己紹介などいろいろ書いてますぜひ見てね)
-const img_url = url('~assets/portfolio picture.jpg');
+const img_url = url(assets/portfolio_picture.jpg);
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
