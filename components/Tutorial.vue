@@ -76,8 +76,9 @@
       
     </div>
   </div>
+
 </template>
-<style> 
+<style>
 @media screen and (min-width: 0px) {
   .text-2xl{
     text-align: center;
@@ -168,12 +169,13 @@
 .href{
   text-decoration: none;
 }
+
 </style>
 <script>
 import SquareBox from "./SquareBox.vue"; 
 export default {
   name: 'NuxtTutorial',
     components: {SquareBox},
+    
 }
-
 </script>
