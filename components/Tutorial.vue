@@ -69,7 +69,10 @@
     <img class="square">
     <p >Hobby</p>
   </a>
-      <SquareBox class="box1"></SquareBox>
+  <a href="404.html">
+    <SquareBox class="box1"></SquareBox>
+  </a>
+      
     </div>
   </div>
 </template>
