@@ -1,6 +1,6 @@
-const title_name = ポートフォリオサイト
-const desc_name = 自己紹介などいろいろ書いてますぜひ見てね
-const img_url = assets/portfolio_picture.jpg
+const title_name = "ポートフォリオサイト"
+const desc_name = "自己紹介などいろいろ書いてますぜひ見てね"
+const img_url = "assets/portfolio_picture.jpg"
 export default {
   head: {
     title: process.env.npm_package_name || "",
