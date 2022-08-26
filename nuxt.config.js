@@ -6,12 +6,13 @@ export default {
   head: {
     htmlAttrs: {
       lang: 'ja',
+      prefix: "og: http://ogp.me/ns#"
     },
     title: process.env.npm_package_name || "",
     meta: [
-      { hid: 'og:title', property: 'og:title', content: "Syuncyan Portfolio Site" },
-      { hid: 'og:image', property: 'og:image', content: "assets/soccer_site.jpg" },
-      { hid: 'og:description', property: 'og:description', content: "ポートフォリオサイトです。ぜひ見に来てください。"},
+      { hid: 'og:title', property: 'og:title', content: 'Syuncyan Portfolio Site' },
+      { hid: 'og:image', property: 'og:image', content: '/soccer_site.jpg' },
+      { hid: 'og:description', property: 'og:description', content: 'ポートフォリオサイトです。ぜひ見に来てください。'},
 
 
       { charset: "utf-8" },
