@@ -58,7 +58,7 @@
           ></svg>
       </div>
       <a href="/about" class="box">
-    <img  src="soccer_ball.jpg" class="square">
+    <img   class="square">
     <p>About</p>
   </a>
   <a href="/Skills" class="box">
