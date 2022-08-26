@@ -10,7 +10,7 @@ export default {
     title: process.env.npm_package_name || "",
     meta: [
       { hid: 'og:title', property: 'og:title', content: "Syuncyan Portfolio Site" },
-      { hid: 'og:image', property: 'og:image', content: "assets\soccer_site.jpg" },
+      { hid: 'og:image', property: 'og:image', content: "assets/soccer_site.jpg" },
       { hid: 'og:description', property: 'og:description', content: "ポートフォリオサイトです。ぜひ見に来てください。"},
 
 
