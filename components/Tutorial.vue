@@ -69,8 +69,9 @@
     <img class="square">
     <p >Hobby</p>
   </a>
-  <a href="404.html">
+  <a href="404.html" class="href">
     <SquareBox class="box1"></SquareBox>
+    
   </a>
       
     </div>
@@ -164,7 +165,9 @@
 .text-2xl{
   text-align: center;
 }
-
+.href{
+  text-decoration: none;
+}
 </style>
 <script>
 import SquareBox from "./SquareBox.vue"; 
