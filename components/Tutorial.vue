@@ -149,7 +149,7 @@
     text-align: center;
 }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
   .text-2xl{
     text-align: center;
   font-size: 80px;

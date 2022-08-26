@@ -113,7 +113,7 @@ export default {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
     h6 {
       text-align: center;
       font-size: 600%;

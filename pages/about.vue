@@ -127,7 +127,7 @@ div .about-container{
         top: 100px;
     }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
     h1,h2,h3,h6,h5{
                 text-align: center;
                 font-size: 50px;

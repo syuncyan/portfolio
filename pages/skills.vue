@@ -104,7 +104,7 @@ export default {
 
 
 
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1500px) {
     h1,h2,h3,h4,h5{
                 text-align: center;
                 font-size: 50px;
