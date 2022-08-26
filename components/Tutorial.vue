@@ -164,6 +164,7 @@
 .text-2xl{
   text-align: center;
 }
+
 </style>
 <script>
 import SquareBox from "./SquareBox.vue"; 
@@ -171,4 +172,5 @@ export default {
   name: 'NuxtTutorial',
     components: {SquareBox},
 }
+
 </script>
