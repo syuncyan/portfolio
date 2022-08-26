@@ -62,11 +62,11 @@
     <p>About</p>
   </a>
   <a href="/Skills" class="box">
-    <img  src="soccer_ball.jpg" class="square">
+    <img  class="square">
     <p>Skills</p>
   </a>
   <a href="/Hobby" class="box">
-    <img  src="soccer_ball.jpg" class="square">
+    <img   class="square">
     <p >Hobby</p>
   </a>
       <SquareBox class="box1"></SquareBox>
