@@ -22,23 +22,6 @@ export default {
 </script>
 
 <style scoped>
-h1,h2,h3,h5,h6{
-    text-align: center;
-    font-size: 50px;
-}
-
-p{
-    text-align: center;
-    font-size: 30px;
-    position: relative;
-    top: -30px;
-}
-
-h4{
-    text-align: center;
-    font-size: 800%;
-    color: red;
-}
 
 .about-container{
   background-image: url('~assets/soccer_field.jpg');
@@ -47,9 +30,72 @@ h4{
 div .about-container{
     text-align: center;
   }
-.top{
-    position: relative;
-    top: 100px;
-    font-size: 80px;
+  @media screen and (min-width: 0px) {
+    h1,h2,h3,h6,h5{
+                text-align: center;
+                font-size: 30px;
+            }
+            p{
+                text-align: center;
+                font-size: 15px;
+                position: relative;
+                bottom: 30px;
+            }
+            h4 {
+                text-align: center;
+                font-size: 300%;
+                color: aqua;
+            }
+  
+    .top{
+        font-size: 30px;
+        position: relative;
+        top: 10px;
+    }
+}
+@media screen and (min-width: 480px) {
+    h1,h2,h3,h6,h5{
+                text-align: center;
+                font-size: 40px;
+            }
+            p{
+                text-align: center;
+                font-size: 25px;
+                position: relative;
+                bottom: 30px;
+            }
+            h4 {
+                text-align: center;
+                font-size: 400%;
+                color: aqua;
+            }
+  
+    .top{
+        font-size: 50px;
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1,h2,h3,h6,h5{
+                text-align: center;
+                font-size: 50px;
+            }
+            p{
+                text-align: center;
+                font-size: 30px;
+            }
+            h4 {
+                text-align: center;
+                font-size: 600%;
+                color: red;
+            }
+  
+    .top{
+        font-size: 80px;
+        position: relative;
+        top: 100px;
+    }
 }
 </style>

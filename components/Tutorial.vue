@@ -73,12 +73,76 @@
     </div>
   </div>
 </template>
-<style>
-.text-2xl{
+<style> 
+@media screen and (min-width: 0px) {
+  .text-2xl{
+    text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+  }
+  .box p{
+  font-size: 10px;
   text-align: center;
-  font-size: 500%;
+  position: relative;
+  top: -75px;
+  left: 0%;
+  color: blue;
+}
+#relative {
+    width: 100px;
+    margin-bottom: 6px;
+    padding:2px;
+    border : solid 1px;
+    text-align: center;
+}
+}
+@media screen and (min-width: 480px) {
+  .text-2xl{
+    text-align: center;
+  font-size: 60px;
+  position: relative;
+  top: 60px;
+  }
+  .box p{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -145px;
+  left: 0%;
+  color: blue;
+}
+#relative {
+    width: 100px;
+    margin-bottom: 6px;
+    padding:2px;
+    border : solid 1px;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .text-2xl{
+    text-align: center;
+  font-size: 100px;
   position: relative;
   top: 100px;
+  }
+  .box p{
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: -210px;
+  left: 0%;
+  color: blue;
+}
+#relative {
+    width: 300px;
+    margin-bottom: 18px;
+    padding:2px;
+    border : solid 1px;
+    text-align: center;
+}
 }
 .relative{
   background-image: url('~assets/soccer_field.jpg');
@@ -91,23 +155,11 @@
 .box{
     display: block;
 }
-.box p{
-  font-size: 30px;
-  text-align: center;
-  position: relative;
-  top: -210px;
-  left: 0%;
-  color: blue;
-}
 .box1{
   text-align: center;
 }
-#relative {
-    width: 300px;
-    margin-bottom: 18px;
-    padding:2px;
-    border : solid 1px;
-    text-align: center;
+.text-2xl{
+  text-align: center;
 }
 </style>
 <script>
