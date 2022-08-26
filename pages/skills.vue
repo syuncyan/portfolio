@@ -101,6 +101,35 @@ export default {
         top: 100px;
     }
   }
+
+
+
+  @media screen and (min-width: 1400px) {
+    h1,h2,h3,h4,h5{
+                text-align: center;
+                font-size: 50px;
+            }
+            p{
+                text-align: center;
+                font-size: 30px;
+            }
+            h6 {
+                text-align: center;
+                font-size: 600%;
+                color: aqua;
+            }
+  
+    .top{
+        font-size: 80px;
+        position: relative;
+        top: 100px;
+    }
+
+    .skills-container{
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  }
     .background {
   width: 100%;
 }

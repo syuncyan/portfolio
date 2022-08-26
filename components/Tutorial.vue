@@ -149,9 +149,36 @@
     text-align: center;
 }
 }
+@media screen and (min-width: 1400px) {
+  .text-2xl{
+    text-align: center;
+  font-size: 80px;
+  position: relative;
+  top: 100px;
+  }
+  .box p{
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: -210px;
+  left: 0%;
+  color: blue;
+}
+#relative {
+    width: 300px;
+    margin-bottom: 18px;
+    padding:2px;
+    border : solid 1px;
+    text-align: center;
+}
+.relative{
+  background-position: center;
+  background-repeat: no-repeat;
+}
+}
 .relative{
   background-image: url('~assets/soccer_field.jpg');
-  background-size: contain
+  background-size: contain;
 }
 .box{
     display: inline-block;

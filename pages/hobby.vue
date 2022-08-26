@@ -112,6 +112,35 @@ export default {
       top: 100px;
   }
 }
+
+@media screen and (min-width: 1400px) {
+    h6 {
+      text-align: center;
+      font-size: 600%;
+      color: gray
+  }
+  h1,h2,h3,h4,h5{
+      text-align: center;
+      font-size: 50px;
+  }
+
+  p{
+      text-align: center;
+      font-size: 30px;
+      color: black;
+  }
+
+  .top{
+      font-size: 80px;
+      position: relative;
+      top: 100px;
+  }
+  .hobby-container{
+  background-position: center;
+  background-repeat: no-repeat;
+}
+}
+
   .background {
   width: 100%;
 }
