@@ -66,7 +66,7 @@
     <p>Skills</p>
   </a>
   <a href="/Hobby" class="box">
-    <img  src="soccer_ball.jpg" class="square" alt="Hobby">
+    <img  src="soccer_ball.jpg" class="square">
     <p >Hobby</p>
   </a>
       <SquareBox class="box1"></SquareBox>
