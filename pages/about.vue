@@ -36,19 +36,20 @@ p{
 
 h4{
     text-align: center;
-    font-size: 70px;
+    font-size: 800%;
     color: red;
 }
 
 .about-container{
   background-image: url('~assets/soccer_field.jpg');
-  background-size: cover
+  background-size: contain
 }
-
+div .about-container{
+    text-align: center;
+  }
 .top{
     position: relative;
-    left: 48%;
-    top: 50px;
-    font-size: 30px;
+    top: 100px;
+    font-size: 80px;
 }
 </style>

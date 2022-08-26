@@ -26,7 +26,7 @@ export default {
 <style  scoped>  
 h6 {
       text-align: center;
-      font-size: 70px;
+      font-size: 800%;
       color: gray
   }
   h1,h2,h3,h4,h5{
@@ -41,16 +41,16 @@ h6 {
   }
 
   .top{
+      font-size: 80px;
       position: relative;
-      left: 48%;
-      top: 50px;
-      font-size: 30px;
+      top: 100px;
   }
 
-
-
+  div .hobby-container{
+    text-align: center;
+  }
   .hobby-container{
   background-image: url('~assets/soccer_field.jpg');
-  background-size: cover
+  background-size: contain
 }
 </style>

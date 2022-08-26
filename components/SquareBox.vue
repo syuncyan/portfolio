@@ -11,18 +11,12 @@
 <style>
 .square {
             width: 300px;
-            text-align: center;
+            margin: 0 auto;
               height: 300px;
-              position: relative;
-              left: 38%;
               border-radius: 50%;
               background-image: url(soccer_ball.jpg);
               background-position: center;
               background-size: cover;
-}
-.square img{
-  width: 100%;
-  cursor: pointer;
 }
 .square:hover{
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);

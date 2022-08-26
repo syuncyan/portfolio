@@ -30,26 +30,22 @@ export default {
                 text-align: center;
                 font-size: 30px;
             }
-            .top{
-                position: relative;
-                left: 48%;
-                top: 50px;
-                font-size: 30px;
-            }
             h6 {
                 text-align: center;
-                font-size: 70px;
+                font-size: 800%;
                 color: aqua;
             }
   
     .top{
+        font-size: 80px;
         position: relative;
-        left: 48%;
-        top: 50px;
-        font-size: 30px;
+        top: 100px;
     }
     .skills-container{
     background-image: url('~assets/soccer_field.jpg');
-    background-size: cover
+    background-size: contain
+  }
+  div .skills-container{
+    text-align: center;
   }
   </style>

@@ -59,15 +59,15 @@
       </div>
       <a href="/about" class="box">
     <img  src="soccer_ball.jpg" class="square" alt="About">
-    <p class="p">About</p>
+    <p>About</p>
   </a>
   <a href="/Skills" class="box">
     <img  src="soccer_ball.jpg" class="square" alt="Skills">
-    <p class="p">Skills</p>
+    <p>Skills</p>
   </a>
   <a href="/Hobby" class="box">
     <img  src="soccer_ball.jpg" class="square" alt="Hobby">
-    <p class="p">Hobby</p>
+    <p >Hobby</p>
   </a>
       <SquareBox class="box1"></SquareBox>
     </div>
@@ -76,35 +76,38 @@
 <style>
 .text-2xl{
   text-align: center;
-  font-size: 80px;
+  font-size: 500%;
   position: relative;
   top: 100px;
 }
 .relative{
   background-image: url('~assets/soccer_field.jpg');
-  background-size: cover
+  background-size: contain
 }
 .box{
     display: inline-block;
-    position: relative;
-    left: 15px;
-    top: 0px;
+    text-align: center;
 }
 .box{
     display: block;
 }
-.p{
+.box p{
   font-size: 30px;
   text-align: center;
   position: relative;
   top: -210px;
-  left: -15px;
+  left: 0%;
   color: blue;
 }
 .box1{
-  position: relative;
-  left: 39%;
-  top: -30px;
+  text-align: center;
+}
+#relative {
+    width: 300px;
+    margin-bottom: 18px;
+    padding:2px;
+    border : solid 1px;
+    text-align: center;
 }
 </style>
 <script>
@@ -114,5 +117,4 @@ export default {
     components: {SquareBox},
 }
 
-</script>
 </script>
