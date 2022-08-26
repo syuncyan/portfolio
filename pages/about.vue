@@ -44,7 +44,7 @@ div .about-container{
             h4 {
                 text-align: center;
                 font-size: 300%;
-                color: aqua;
+                color: red;
             }
   
     .top{
@@ -67,7 +67,7 @@ div .about-container{
             h4 {
                 text-align: center;
                 font-size: 400%;
-                color: aqua;
+                color: red;
             }
   
     .top{

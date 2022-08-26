@@ -100,7 +100,7 @@
 @media screen and (min-width: 480px) {
   .text-2xl{
     text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   position: relative;
   top: 60px;
   }
@@ -168,5 +168,4 @@ export default {
   name: 'NuxtTutorial',
     components: {SquareBox},
 }
-
 </script>
